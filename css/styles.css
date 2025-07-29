@@ -82,8 +82,6 @@ button:focus {
 text-decoration: none;
 letter-spacing: 0.03em;
     color: #4d5ae5;
-    padding-top: 24px; 
-    padding-bottom: 24px;
 }
 
 .header-accent {
@@ -98,7 +96,7 @@ letter-spacing: 0.03em;
 
 .header-list-item {
     display: flex;
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .header-link-item {
@@ -317,9 +315,12 @@ advantages {
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
@@ -328,10 +329,9 @@ advantages {
         text-transform: uppercase;
         text-decoration: none;
         color: #4d5ae5;
-        display: inline-block;
         align-items: center;
         margin-bottom: 16px;
-        padding-top: 100px;
+        margin-left: 156px;
 }
 .footer-text {
     color: #f4f4fd;
@@ -339,7 +339,7 @@ advantages {
     letter-spacing: 0.02em;
     margin-right: auto;
     width: 264px;
-    padding-bottom: 100px;
+    margin-left: 156px;
 }
 
 .accent {
@@ -365,6 +365,5 @@ advantages {
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
