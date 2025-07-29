@@ -14,6 +14,7 @@ ul {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -185,6 +186,11 @@ letter-spacing: 0.03em;
 
 advantages {
 }
+
+.advanteges-container {
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -201,6 +207,7 @@ advantages {
 
 
 .advantages-list {
+    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
@@ -208,6 +215,7 @@ advantages {
 }
 
 .advanteges-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -297,7 +305,7 @@ advantages {
 }
 
 .portfolio-list-item {
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title-item {
@@ -357,17 +365,6 @@ advantages {
 
 
 
-.main-container {
-
-}
-
-.advantages-container {
-
-}
-
-.team-container {
-    
-}
 
 
 .footer-container {
