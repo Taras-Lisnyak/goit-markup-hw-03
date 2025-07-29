@@ -5,6 +5,7 @@
 }
 
 
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -292,6 +293,7 @@ advantages {
     margin-bottom: 8px;
     margin-top: 32px;
     border-radius: 0 0 4px 4px;
+    text-align: center;
 }
 
 .team-text {
@@ -301,6 +303,7 @@ advantages {
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .portfolio-container {
