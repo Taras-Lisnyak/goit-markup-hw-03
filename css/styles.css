@@ -226,7 +226,6 @@ advantages {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 72px)/4);
 }
 
 .second-title-text {
@@ -326,11 +325,12 @@ advantages {
 }
 
 .portfolio-text-item {
-        display: block;
+        display: flex;
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-bottom: 32px;
 }
 
 
