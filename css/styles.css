@@ -92,12 +92,11 @@ letter-spacing: 0.03em;
     background-color: #FFFFFF;
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list-item {
     display: flex;
+    padding: 24px 0 24px;
 }
 
 .header-link-item {
