@@ -92,11 +92,12 @@ letter-spacing: 0.03em;
     background-color: #FFFFFF;
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item {
     display: flex;
-    padding: 24px 0 24px;
 }
 
 .header-link-item {
@@ -180,18 +181,20 @@ padding: 16px 32px;
 
 advantages {
 }
-
 .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
+
 
 .advantages-list {
     padding-top: 120px;
@@ -201,12 +204,9 @@ advantages {
 }
 
 .advanteges-list-item {
-
+    width: calc((100% - 72px)/4);
 }
 
-.advanteges-list-item .list-title {
-
-}
 
 .list-title {
     font-weight: 500;
