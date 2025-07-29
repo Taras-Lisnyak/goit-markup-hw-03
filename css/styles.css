@@ -241,6 +241,10 @@ advantages {
     background-color: #f4f4fd;
 }
 
+.team-container {
+    padding: 32px 0 32px;
+}
+
 .team-title {
         font-size: 36px;
             line-height: 1.11;
@@ -253,8 +257,8 @@ advantages {
 }
 
 .team-list {
-    color: #4d5ae5;
     display: flex;
+    color: #4d5ae5;
     gap: 24px; 
 }
 
@@ -275,6 +279,7 @@ advantages {
     color: #2e2f42;
     margin-bottom: 8px;
     margin-top: 32px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-text {
@@ -283,8 +288,11 @@ advantages {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
+.portfolio-container {
+}
 
 .portfolio-title {
     font-weight: 700;
@@ -298,10 +306,10 @@ advantages {
 }
 
 .portfolio-list {
-    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    background-color: #FFFFFF;
 }
 
 .portfolio-list-item {
@@ -323,10 +331,6 @@ advantages {
         line-height: 1.50;
         letter-spacing: 0.02em;
         color: #434455;
-}
-
-.portfolio-container {
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
