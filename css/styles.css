@@ -238,6 +238,7 @@ advantages {
 
 .team-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-container {
@@ -245,6 +246,7 @@ advantages {
 }
 
 .team-title {
+    font-size: 700;
         font-size: 36px;
             line-height: 1.11;
             text-align: center;
@@ -258,7 +260,8 @@ advantages {
 .team-list {
     display: flex;
     color: #4d5ae5;
-    gap: 24px; 
+    gap: 24px;
+    flex-wrap: wrap; 
 }
 
 .team-list:hover {
@@ -278,7 +281,7 @@ advantages {
     color: #2e2f42;
     margin-bottom: 8px;
     margin-top: 32px;
-    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-text {
@@ -333,6 +336,11 @@ advantages {
         margin-bottom: 32px;
 }
 
+.portfolio-info-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 .footer {
     background-color: #2e2f42;
